@@ -1,0 +1,31 @@
+{
+  "name": "@chuks-o/salty",
+  "version": "0.0.1",
+  "description": "A practical utility library for JavaScript engineers",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuks-o/salty.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "javaScript",
+    "Typescript",
+    "utils",
+    "salty",
+    "utilities"
+  ],
+  "author": {
+    "name": "Okpala Chukwualasu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/chuks-o/salty.git"
+}

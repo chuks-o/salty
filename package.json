@@ -1,0 +1,20 @@
+{
+  "name": "@chuks-o/salty",
+  "version": "1.0.0",
+  "description": "A practical utility library for JavaScript engineers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
