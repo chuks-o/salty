@@ -2,13 +2,8 @@
   "name": "@chuks-o/salty",
   "version": "1.0.1",
   "description": "A practical utility library for JavaScript engineers",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "/dist"
-  ],
+  "main": "dist/lib/es5/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
   },
   "keywords": [
@@ -18,7 +13,7 @@
   ],
   "author": "Okpala Chukwualasu",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.9.5"
   }
 }

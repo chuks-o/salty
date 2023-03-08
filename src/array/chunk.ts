@@ -11,8 +11,15 @@
  * // => [[1,2,3], [4,5,6], [7,8]]
  */
 
-const _chunk = (array: any[], size = 1): any[] => {
-  if (!Array.isArray(array) || !array.length) return [];
+const _chunk = <
+  TObj extends object | number | string | boolean,
+  TSize extends number
+>(
+  array: Array<TObj>,
+  size: TSize
+): Array<Array<TObj>> | Array<TObj> => {
+  if (!Array.isArray(array) || array.length === 0) return array;
+
   let result = [];
   let index = 0;
   while (index < array.length) {

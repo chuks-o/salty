@@ -11,9 +11,7 @@
   },
   "files": [
     "lib",
-    "CHANGELOG.md",
     "LICENSE",
-    "package.json",
     "README.md"
   ],
   "keywords": [

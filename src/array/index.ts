@@ -1,3 +1,9 @@
 export { _chunk } from "./chunk";
 export { _compact } from "./compact";
 export { _pluck } from "./pluck";
+export { _groupBy } from "./groupBy";
+export { _omitFromObject } from "./omitFromObject";
+export { _pickFromObject } from "./pickFromObject";
+export { _deepClone } from "./deepClone";
+export { _sort } from "./sort";
+export { _mergeAll } from "./mergeAll";
